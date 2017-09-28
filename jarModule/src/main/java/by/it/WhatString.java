@@ -9,7 +9,7 @@ public class WhatString {
     public static final String SURNAME_REGEX = "^[a-zA-Zа-яёА-ЯЁ\\s\\-]+$";
     public static final String SOCIAL_SECURITY_NUMBER_REGEX = "\\d+";
 
-
+//test
 
     public static String what(String str) {
         if (Pattern.matches(PHONE_NUMBER_REGEX, str)){
