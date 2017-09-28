@@ -11,7 +11,7 @@ public class WhatString {
 
 //test
 
-    public static String what(String str) {
+    public static String what(String str) {//test2
         if (Pattern.matches(PHONE_NUMBER_REGEX, str)){
             return "Строка является номером телефона!!!";
         }
