@@ -22,7 +22,7 @@ public class WhatStringTest {
          str = "Строка является номером социального страхования!!!";
          str1 = what("23423432432");
         assertEquals(str, str1);
-        str = "Вы ни чего не ввели!!!";
+        str = "Вы ни чего не ввели!!!!!!";
          str1 = what("");
         assertEquals(str, str1);
         str = "Неизвестная строка";
