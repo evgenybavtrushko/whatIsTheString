@@ -49,8 +49,6 @@
                     <configuration>
                         <url>http://localhost/manager/text</url>
                         <server>myserver</server>
-                        <username>managerScript</username>
-                        <password>admin</password>
                         <path>/${project.build.finalName}</path>
                     </configuration>
                 </execution>
